@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D9ED82722DC8DA04000621E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9ED82592DC8DA03000621E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9ED82602DC8DA03000621E1;
+			remoteInfo = BrightSpotDetection;
+		};
+		D9ED827C2DC8DA04000621E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9ED82592DC8DA03000621E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9ED82602DC8DA03000621E1;
+			remoteInfo = BrightSpotDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9ED82612DC8DA03000621E1 /* BrightSpotDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightSpotDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9ED82712DC8DA04000621E1 /* BrightSpotDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightSpotDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9ED827B2DC8DA04000621E1 /* BrightSpotDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightSpotDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D9ED82632DC8DA03000621E1 /* BrightSpotDetection */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BrightSpotDetection;
+			sourceTree = "<group>";
+		};
+		D9ED82742DC8DA04000621E1 /* BrightSpotDetectionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BrightSpotDetectionTests;
+			sourceTree = "<group>";
+		};
+		D9ED827E2DC8DA04000621E1 /* BrightSpotDetectionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BrightSpotDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9ED825E2DC8DA03000621E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ED826E2DC8DA04000621E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ED82782DC8DA04000621E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9ED82582DC8DA03000621E1 = {
+			isa = PBXGroup;
+			children = (
+				D9ED82632DC8DA03000621E1 /* BrightSpotDetection */,
+				D9ED82742DC8DA04000621E1 /* BrightSpotDetectionTests */,
+				D9ED827E2DC8DA04000621E1 /* BrightSpotDetectionUITests */,
+				D9ED82622DC8DA03000621E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9ED82622DC8DA03000621E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9ED82612DC8DA03000621E1 /* BrightSpotDetection.app */,
+				D9ED82712DC8DA04000621E1 /* BrightSpotDetectionTests.xctest */,
+				D9ED827B2DC8DA04000621E1 /* BrightSpotDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9ED82602DC8DA03000621E1 /* BrightSpotDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9ED82852DC8DA04000621E1 /* Build configuration list for PBXNativeTarget "BrightSpotDetection" */;
+			buildPhases = (
+				D9ED825D2DC8DA03000621E1 /* Sources */,
+				D9ED825E2DC8DA03000621E1 /* Frameworks */,
+				D9ED825F2DC8DA03000621E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D9ED82632DC8DA03000621E1 /* BrightSpotDetection */,
+			);
+			name = BrightSpotDetection;
+			packageProductDependencies = (
+			);
+			productName = BrightSpotDetection;
+			productReference = D9ED82612DC8DA03000621E1 /* BrightSpotDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9ED82702DC8DA04000621E1 /* BrightSpotDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9ED82882DC8DA04000621E1 /* Build configuration list for PBXNativeTarget "BrightSpotDetectionTests" */;
+			buildPhases = (
+				D9ED826D2DC8DA04000621E1 /* Sources */,
+				D9ED826E2DC8DA04000621E1 /* Frameworks */,
+				D9ED826F2DC8DA04000621E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9ED82732DC8DA04000621E1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D9ED82742DC8DA04000621E1 /* BrightSpotDetectionTests */,
+			);
+			name = BrightSpotDetectionTests;
+			packageProductDependencies = (
+			);
+			productName = BrightSpotDetectionTests;
+			productReference = D9ED82712DC8DA04000621E1 /* BrightSpotDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9ED827A2DC8DA04000621E1 /* BrightSpotDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9ED828B2DC8DA04000621E1 /* Build configuration list for PBXNativeTarget "BrightSpotDetectionUITests" */;
+			buildPhases = (
+				D9ED82772DC8DA04000621E1 /* Sources */,
+				D9ED82782DC8DA04000621E1 /* Frameworks */,
+				D9ED82792DC8DA04000621E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9ED827D2DC8DA04000621E1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D9ED827E2DC8DA04000621E1 /* BrightSpotDetectionUITests */,
+			);
+			name = BrightSpotDetectionUITests;
+			packageProductDependencies = (
+			);
+			productName = BrightSpotDetectionUITests;
+			productReference = D9ED827B2DC8DA04000621E1 /* BrightSpotDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9ED82592DC8DA03000621E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D9ED82602DC8DA03000621E1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D9ED82702DC8DA04000621E1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D9ED82602DC8DA03000621E1;
+					};
+					D9ED827A2DC8DA04000621E1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D9ED82602DC8DA03000621E1;
+					};
+				};
+			};
+			buildConfigurationList = D9ED825C2DC8DA03000621E1 /* Build configuration list for PBXProject "BrightSpotDetection" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9ED82582DC8DA03000621E1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D9ED82622DC8DA03000621E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9ED82602DC8DA03000621E1 /* BrightSpotDetection */,
+				D9ED82702DC8DA04000621E1 /* BrightSpotDetectionTests */,
+				D9ED827A2DC8DA04000621E1 /* BrightSpotDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9ED825F2DC8DA03000621E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ED826F2DC8DA04000621E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ED82792DC8DA04000621E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9ED825D2DC8DA03000621E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ED826D2DC8DA04000621E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ED82772DC8DA04000621E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9ED82732DC8DA04000621E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9ED82602DC8DA03000621E1 /* BrightSpotDetection */;
+			targetProxy = D9ED82722DC8DA04000621E1 /* PBXContainerItemProxy */;
+		};
+		D9ED827D2DC8DA04000621E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9ED82602DC8DA03000621E1 /* BrightSpotDetection */;
+			targetProxy = D9ED827C2DC8DA04000621E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9ED82832DC8DA04000621E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9ED82842DC8DA04000621E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9ED82862DC8DA04000621E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrightSpotDetection/Preview Content\"";
+				DEVELOPMENT_TEAM = ZKL6C9T3NC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Show me some picture";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejgad.BrightSpotDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9ED82872DC8DA04000621E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrightSpotDetection/Preview Content\"";
+				DEVELOPMENT_TEAM = ZKL6C9T3NC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Show me some picture";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejgad.BrightSpotDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9ED82892DC8DA04000621E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZKL6C9T3NC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejgad.BrightSpotDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightSpotDetection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrightSpotDetection";
+			};
+			name = Debug;
+		};
+		D9ED828A2DC8DA04000621E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZKL6C9T3NC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejgad.BrightSpotDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightSpotDetection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrightSpotDetection";
+			};
+			name = Release;
+		};
+		D9ED828C2DC8DA04000621E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZKL6C9T3NC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejgad.BrightSpotDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrightSpotDetection;
+			};
+			name = Debug;
+		};
+		D9ED828D2DC8DA04000621E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZKL6C9T3NC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejgad.BrightSpotDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrightSpotDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9ED825C2DC8DA03000621E1 /* Build configuration list for PBXProject "BrightSpotDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9ED82832DC8DA04000621E1 /* Debug */,
+				D9ED82842DC8DA04000621E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9ED82852DC8DA04000621E1 /* Build configuration list for PBXNativeTarget "BrightSpotDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9ED82862DC8DA04000621E1 /* Debug */,
+				D9ED82872DC8DA04000621E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9ED82882DC8DA04000621E1 /* Build configuration list for PBXNativeTarget "BrightSpotDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9ED82892DC8DA04000621E1 /* Debug */,
+				D9ED828A2DC8DA04000621E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9ED828B2DC8DA04000621E1 /* Build configuration list for PBXNativeTarget "BrightSpotDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9ED828C2DC8DA04000621E1 /* Debug */,
+				D9ED828D2DC8DA04000621E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9ED82592DC8DA03000621E1 /* Project object */;
+}
